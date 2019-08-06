@@ -62,6 +62,6 @@ On a side note, the properties defined in <code>data</code> are only reactive if
 
 So there you have it. Your very first Vue app where you say hello to the world! As a "homework/exercise" display your name and a title you want to give yourself in separate tags. Give yourself a cool title. Too bad 'Star-Lord' is taken.
 
-If you have any corrections, suggestions or feeback for me, feel free to reach me on twitter or at gautham1995@gmail.com.
+If you have any corrections, suggestions or feeback for me, feel free to reach me out on [twitter](https://twitter.com/MightyGL).
 
 See you next time when we jump into **directives**.
