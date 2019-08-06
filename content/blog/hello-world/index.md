@@ -1,7 +1,7 @@
 ---
 title: Hello World!
 date: "2019-08-06T22:12:03.284Z"
-description: "Hello World"
+description: "Let's start with the archetypal first program - Hello World!"
 ---
 
 Welcome to my blog!
@@ -10,7 +10,7 @@ This is a blog for absolute beginners to Vue.js, from an absolute beginner to Vu
 
 Here I will talk about everything I cover on Vue.js and then try and teach the same to you, my faithful readers!
 
-So to kickoff I will start with the archetypal first program everyone writes in a new language/framework. Printing **Hello World!** on to the screen!
+So to kickoff let's start with the archetypal first program everyone writes. Printing **Hello World!** on to the screen!
 
 ---
 
