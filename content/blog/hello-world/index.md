@@ -1,6 +1,6 @@
 ---
 title: Hello World!
-date: "2019-08-06T22:12:03.284Z"
+date: "2019-08-07T22:00:00.000Z"
 description: "Let's start with the archetypal first program - Hello World!"
 ---
 
