@@ -43,3 +43,15 @@ code {
     background-color: #f8f8f8;
     color: var(--blue);
 }
+
+h2 > code {
+  font-size: 1.5rem;
+}
+
+a {
+  box-shadow: 0 1px 0 0 var(--blue);
+}
+
+a:hover {
+  box-shadow: none;
+}
