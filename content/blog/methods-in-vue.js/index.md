@@ -65,6 +65,31 @@ let app = new Vue({
 </div>
 ```
 
+## Event and Key Modifiers
+
+Calling <code>event.preventDefault</code> or <code>event.stopPropogation</code> inside event handlers is very common. Vue lets us skip this step of calling them inside the event handlers and thus have only data logic inside it. Vue provides event modifiers which can be postfixed with a dot after the <code>v-on</code> directive.
+
+```html
+<!-- the propagation of the click event  will be stopped -->
+<a v-on:click.stop="handleClick"></a>
+
+<!-- the form submit event will no longer cause a reload of the page -->
+<form v-on:submit.prevent="onFormSubmit"></form>
+```
+
+There are many other event modifiers like <code>.capture</code>, <code>.self</code>, etc. You can [check them out in the official docs](https://vuejs.org/v2/guide/events.html#Event-Modifiers).
+
+---
+
+Key Modifiers on the other hand lets us listen for specific keys during keyboard events. 
+
+```html
+<!-- `handleInput()` will only be called when the key is `Enter` -->
+<input v-on:keyup.enter="handleInput">
+```
+
+This can help us in cases where we want to change a data property only when enter is pressed. You can find many more [key modifiers in the official docs](https://vuejs.org/v2/guide/events.html#Key-Modifiers).
+
 ---
 
 Now that we have got our heads around Vue methods, it's time for a challenge. Remember that we set up a counter that increments on every button click in the last [post](https://avueblog.netlify.com/fantastic-directives-and-how-to-use-them/)? Now you could try to do that with Vue.js methods! So you guys give that a try and let me know how it goes. 
