@@ -64,6 +64,34 @@ let app = new Vue({
   <button v-on:click="callAlert('Parameter says hi!')">Click me!</button>
 </div>
 ```
+<br />
+
+---
+
+You can access the event object the way you usually do in normal Javascript functions.
+
+But in case you need to accept another parameter along with the event object, we pass a keyword reserved by Vue in the method call, <code>$event</code>.
+
+```html
+<input type="text" v-on:keydown="storeValue('Mr.', $event)">
+<p>{{ value }}</p>
+```
+
+```javascript
+new Vue({
+  el: '#exercise',
+  data: {
+    value: ''
+  },
+  methods: {
+    storeValue: function(salutation, event) {
+    	this.value = salutation + ' ' + event.target.value;
+    }
+  }
+});
+```
+
+Here the output will have the salutation passed to the method, which we attach to the value.
 
 ## Event and Key Modifiers
 
