@@ -55,3 +55,7 @@ a {
 a:hover {
   box-shadow: none;
 }
+
+h2, h4 {
+  margin-top: 2rem;
+}
