@@ -59,3 +59,7 @@ a:hover {
 h2, h4 {
   margin-top: 2rem;
 }
+
+h4 {
+  text-transform: none;
+}
